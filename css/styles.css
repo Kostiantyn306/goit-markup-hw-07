@@ -1,69 +1,23 @@
-:root {
+/* :root {
   --fone-color: #2f303a;
   --background-main: #f5f5f5;
   --basic-text: #212121;
   --minor-text: #757575;
   --akcent-color: #2196f3;
   --white-color: #ffffff;
-}
+} */
 
 /* index.html */
-body {
+/* body {
   letter-spacing: 0.03em;
   background-color: var(--white-color);
   color: var(--basic-text);
   font-family: 'Roboto';
   font-size: 14px;
-}
+} */
 
 /* =======RESET========= */
 
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
-
-/* Стили для обнуления верхних отступов у элементов */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-/* Класс для обнуления базовых свойств у списков (ul) */
-.list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-/* Класс для обнуления базовых свойств у ссылок */
-.link {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Свойства для корректного отображения картинок */
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/* Свойства для обнуления курсива у address */
-
-address {
-  font-style: normal;
-}
 /* ============================================================================================ */
 .container {
   width: 1200px;
@@ -77,15 +31,15 @@ address {
   padding: 94px 0;
 }
 
-.header__container {
+/* .header__container {
   display: flex;
   align-items: center;
 }
 .header {
   padding: 24px 0;
   border-bottom: 1px solid #ececec;
-}
-.logo {
+} */
+/* .logo {
   margin-right: 93px;
   font-family: 'Raleway';
   font-size: 26px;
@@ -103,9 +57,9 @@ address {
 .logo:hover,
 .logo:focus {
   color: var(--akcent-color);
-}
+} */
 
-.link-navig {
+/* .link-navig {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,9 +93,9 @@ address {
 .contact:focus,
 .contact:hover {
   color: var(--akcent-color);
-}
+} */
 
-.contact-footer {
+/* .contact-footer {
   font-weight: 400;
 
   line-height: 1.71;
@@ -156,13 +110,13 @@ address {
 .contact-footer:hover,
 .contact-footer:focus {
   color: var(--akcent-color);
-}
+} */
 
-.web {
+/* .web {
   color: var(--akcent-color);
-}
+} */
 
-.header__nav {
+/* .header__nav {
   display: flex;
   align-items: center;
 }
@@ -186,12 +140,12 @@ address {
 }
 .nav-link:active {
   color: var(--akcent-color);
-}
-.active {
+} */
+/* .active {
   color: var(--akcent-color);
-}
+} */
 /* Підкреслення */
-.emphasis {
+/* .emphasis {
   position: relative;
 }
 .emphasis::after {
@@ -204,16 +158,16 @@ address {
   height: 4px;
   background-color: var(--akcent-color);
   border-radius: 2px;
-}
+} */
 
-.active-bnt {
+/* .active-bnt {
   color: var(--akcent-color);
 }
 
 .link.aktive {
   color: var(--akcent-color);
-}
-.hero {
+} */
+/* .hero {
   background-color: var(--fone-color);
   padding-bottom: 200px;
   padding-top: 200px;
@@ -222,7 +176,6 @@ address {
     url(../imeges/bg-hero.jpg);
   max-width: 1600px;
 }
-/* main */
 
 .hero-list {
   font-weight: 900;
@@ -236,8 +189,8 @@ address {
 
   margin-bottom: 30px;
   width: 696px;
-}
-.visually-hidden {
+} */
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -248,9 +201,9 @@ address {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 /* =======Наші переваги======= */
-.benefits {
+/* .benefits {
   align-items: baseline;
   justify-content: center;
   width: auto;
@@ -284,9 +237,9 @@ address {
 .benefits__list {
   line-height: 1.71;
   color: var(--minor-text);
-}
+} */
 /* Чим ми займаємося */
-.list-meta {
+/* .list-meta {
   padding-top: 0;
 }
 .list-meta__title {
@@ -312,9 +265,9 @@ address {
   text-transform: uppercase;
 
   color: var(--white-color);
-}
+} */
 /* =====наша команда===== */
-.comand {
+/* .comand {
   background-color: #f5f4fa;
 }
 
@@ -369,11 +322,11 @@ address {
   text-align: center;
   color: var(--minor-text);
   margin-bottom: 16px;
-}
+} */
 
 /* portfolio */
 
-.button {
+/* .button {
   margin-left: auto;
   margin-right: auto;
   font-size: 16px;
@@ -436,9 +389,9 @@ address {
   justify-content: center;
   margin-bottom: 50px;
   gap: 8px;
-}
+} */
 
-.portfolio__list {
+/* .portfolio__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -466,10 +419,10 @@ address {
   line-height: 1.9;
 
   color: var(--minor-text);
-}
+} */
 
 /* footer */
-.footer {
+/* .footer {
   background-color: var(--fone-color);
   padding: 60px 0;
 }
@@ -481,8 +434,8 @@ address {
   line-height: 2.24;
   color: var(--white-color);
   margin-bottom: 20px;
-}
-.logo-footer {
+} */
+/* .logo-footer {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -492,8 +445,8 @@ address {
 
   display: block;
   margin-bottom: 20px;
-}
-.address {
+} */
+/* .address {
   font-size: 14px;
   line-height: 1.7;
   color: #ffffff;
@@ -514,13 +467,10 @@ address {
 .footer-lists {
   display: block;
   justify-content: center;
-}
-/* .address-list {
-  width: 231px;
-  margin-right: 70px;
 } */
+
 /* ========Іконки=======  */
-.socials__link {
+/* .socials__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -575,10 +525,10 @@ address {
   align-items: center;
   justify-content: center;
   gap: 10px;
-}
+} */
 
 /* =====Наші клієнти===== */
-.client-list {
+/* .client-list {
   display: flex;
 
   fill: #afb1b8;
@@ -612,9 +562,9 @@ address {
 }
 .client-icon {
   fill: currentColor;
-}
+} */
 
-.portfolio__thumb {
+/* .portfolio__thumb {
   position: relative;
   overflow: hidden;
 }
@@ -646,10 +596,10 @@ address {
   letter-spacing: 0.03em;
 
   color: var(--white-color);
-}
+} */
 
 /* ==========Modal========= */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -864,9 +814,9 @@ address {
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /*  */
-.modal-icon {
+/* .modal-icon {
   fill: #212121;
   width: 18px;
   height: 18px;
@@ -879,12 +829,12 @@ address {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* ====================================
 ======================================= */
 
-.sign-ua__input {
+/* .sign-up__input {
   width: 358px;
   height: 50px;
   background-color: var(--fone-color);
@@ -895,7 +845,7 @@ address {
   color: var(--white-color);
 }
 
-.sign-ua__input::placeholder {
+.sign-up__input::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -911,7 +861,7 @@ address {
   margin-bottom: 20px;
 }
 
-.sign-up___button {
+.sign-up__button {
   display: inline-flex;
   align-items: center;
   justify-content: space-evenly;
@@ -936,4 +886,4 @@ address {
 .send {
   height: 24px;
   width: 24px;
-}
+} */
