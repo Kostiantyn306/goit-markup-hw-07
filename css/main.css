@@ -70,12 +70,25 @@ address {
   margin: -1px;
 }
 
+.portfolio__lists, .clients__list, .comand, .list-meta, .benefits, .hero {
+  padding: 94px 0;
+}
+
 body {
   letter-spacing: 0.03em;
   background-color: var(--white-color);
   color: var(--basic-text);
   font-family: "Roboto";
   font-size: 14px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
 }
 
 .header__container {

@@ -1,3 +1,6 @@
+.portfolio__lists{
+        @extend %section;
+}
 .portfolio__list {
     display: flex;
     flex-wrap: wrap;

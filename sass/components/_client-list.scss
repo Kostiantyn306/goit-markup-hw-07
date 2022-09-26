@@ -1,3 +1,7 @@
+.clients__list{
+        @extend %section;
+}
+
 .client-list {
     display: flex;
 
